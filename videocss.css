@@ -1,0 +1,61 @@
+body{
+    background-color: purple;
+}
+
+nav{
+    background-color: white;
+    color:darkmagenta;
+    border:2px solid gray;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header{
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    list-style: none;
+}
+
+.navbar li{
+    padding: 5px;
+    flex-grow: 3;
+    text-align: center;
+}
+
+.headerimg{
+    display: block;
+    margin: auto;
+    height: 300px;
+    width:500px;
+}
+
+#mylink{
+    text-align: center;
+}
+
+.btsvideo{
+    display: block;
+    height:300px;
+    width:500px;
+    padding: 10px;
+    margin: auto;
+}
+
+.basicinfo{
+    color:hotpink 
+}
+
+.favfacts{
+    color:aqua 
+}
+
+.rankalbums{
+    color:aquamarine
+}
+
+.rankalbums ul li{
+    list-style: square;
+}
